@@ -4,9 +4,9 @@ sum = num1 * num2
 
 print(f"{num1} x {num2} = {sum}")
 
-if (sum == 0):
+if sum == 0:
     print("This result is positive and negative.")
-elif (sum > 0):
+elif sum > 0:
     print("This result is positive.")
 else:
     print("This result is negative.")
